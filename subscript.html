@@ -92,7 +92,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/assets/style/style.css">
+    <link rel="preload" href="/assets/style/style.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/assets/style/style.css"></noscript>
 
     <style>
         .subtl {
@@ -591,13 +592,13 @@
     <div class="custom--cursor cursor--inner"></div>
 
     <!-- Main Scripts -->
-    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/main.js" defer></script>
 
     <!-- Subscript Script -->
-    <script src="/assets/js/subscript.js"></script>
+    <script src="/assets/js/subscript.js" defer></script>
 
     <!--Footer Pleaceholder-->
-    <script src="/assets/js/footer.js"></script>
+    <script src="/assets/js/footer.js" defer></script>
 
 </body>
 
