@@ -8,7 +8,8 @@
         content="Use our 100% secure, free online superscript generator to convert text to Unicode superscript instantly. Perfect for Discord, Word, and scientific formulas. No login required!">
     <meta name="keywords"
         content="text toolifysite superscript generator, superscript generator, superscript text generator, discord superscript generator, online superscript generator, superscript font generator, superscript generator, superscript unicode generator, unicode superscript generator, how to generate superscript in word, can rtfd generate smaller superscript characters, small text converter, tiny text generator">
-    <meta name="author" content="Text.ToolifySite.Com">
+    <meta name="author" content="text.toolifysite.com">
+    <link rel="canonical" href="https://text.toolifysite.com/superscript-generator">
     <meta name="robots" content="index, follow, max-snippet, max-image-preview">
 
     <!-- Open Graph -->
@@ -84,7 +85,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/assets/style/style.css">
+  <link rel="preload" href="/assets/style/style.css" as="style" />
+  <link rel="stylesheet" href="/assets/style/style.css" media="print" onload="this.media='all'" />
+  <link rel="stylesheet" href="/assets/style/style.css" />
 
     <style>
         .suptl {
@@ -618,13 +621,13 @@
     <div class="custom--cursor cursor--inner"></div>
 
     <!-- Main Scripts -->
-    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/main.js" defer></script>
 
     <!-- Superscript Script -->
-    <script src="/assets/js/superscript.js"></script>
+    <script src="/assets/js/superscript.js" defer></script>
 
     <!--Footer Pleaceholder-->
-    <script src="/assets/js/footer.js"></script>
+    <script src="/assets/js/footer.js" defer></script>
 
 </body>
 
