@@ -140,10 +140,10 @@ document.documentElement.classList.toggle(
     };
 
     // ============ Footer Year ============
-    function updateYear() {
+    const updateYear = () => {
         const el = document.getElementById('year');
         if (el) el.textContent = new Date().getFullYear();
-    }
+    };
 
     // ============ Initialize ============
     function init() {
